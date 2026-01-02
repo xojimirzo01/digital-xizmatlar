@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head> 
+  <head>
+  <meta charset="UTF-8">
+
+  <title>Digital Xizmatlar – Sayt, Telegram bot va Dizayn</title>
+
+  <meta name="description" content="Digital xizmatlar: sayt yaratish, telegram bot, dizayn. Tez va sifatli xizmat. Buyurtma uchun qo‘ng‘iroq qiling.">
+
+  <meta name="keywords" content="digital xizmatlar, sayt yaratish, telegram bot, web dizayn, uzbekistan">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google uchun -->
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<meta charset="UTF-8">
+<title>Digital Xizmatlar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Digital Xizmatlar: Sayt, Telegram Bot va Dizayn</h1>
+<p>
+Biz professional digital xizmatlar ko‘rsatamiz: 
+sayt yaratish, telegram bot ishlab chiqish va zamonaviy dizayn.
+</p>
+
+
+<header>
+  <div class="logo">💻 Digital Xizmatlar</div>
+  <nav>
+    <a href="#services">Xizmatlar</a>
+    <a href="#order">Buyurtma</a>
+  </nav>
+</header>
+
+<section class="banner">
+  <h1>Bizning xizmatlar bilan biznesingizni rivojlantiring!</h1>
+  <p>Telegram bot, sayt yaratish, dizayn ishlari — hammasi bir joyda.</p>
+</section>
+
+<section id="services" class="services">
+  <h2>Xizmatlarimiz</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Telegram bot</h3>
+      <p>Avtomatik xabarlar va interaktiv botlar yaratamiz.</p>
+    </div>
+    <div class="card">
+      <h3>Sayt yaratish</h3>
+      <p>Chiroyli, tez va mobil mos saytlar.</p>
+    </div>
+    <div class="card">
+      <h3>Dizayn</h3>
+      <p>Bannerlar, logotiplar va vizual ishlanmalar.</p>
+    </div>
+  </div>
+</section>
+
+<section id="order" class="order">
+  <h2>Buyurtma berish</h2>
+  <input id="name" type="text" placeholder="Ismingiz" required>
+  <input id="phone" type="text" placeholder="Telefon raqam" required>
+  <select id="service">
+    <option>Telegram bot</option>
+    <option>Sayt yaratish</option>
+    <option>Dizayn</option>
+  </select>
+  <textarea id="comment" placeholder="Izoh"></textarea>
+  <button onclick="sendOrder()">Buyurtma yuborish</button>
+  <p id="response"></p>
+</section>
+
+<footer>
+  <p>© 2026 Digital Xizmatlar. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+<script src="script.js"></script>
+<a id="callLink">📞 Telefon qilish</a>
+<a id="smsLink">📩 SMS yuborish</a>
+<button onclick="sendByPhoneSMSMail()">Buyurtma yuborish</button>
+<img src="images/banner.jpg"
+     alt="Digital xizmatlar – sayt va telegram bot"
+     class="banner">
+
+</body>
+</html>
